@@ -2,8 +2,6 @@
 
 > A 0.6B-parameter model with retrieval beats a 32B model without it — at 14% of the carbon. *Sometimes.* This repo measures when, and on what kinds of questions.
 
-> **Previously known as `LMPowerConsuption`.** If you arrived here from the published paper, you're in the right place — the repository was renamed to match the paper's title.
-
 This is the code, data, and analysis for the paper:
 
 📄 **Smaller, Smarter, Greener: Reducing LLM Inference Emissions with RAG**
