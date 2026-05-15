@@ -5,8 +5,7 @@
 This is the code, data, and analysis for the paper:
 
 📄 **Smaller, Smarter, Greener: Reducing LLM Inference Emissions with RAG**
-*Ethan Heavey & Paul Cook (University of New Brunswick)*
-[Proceedings of Machine Learning Research, vol. 318](https://proceedings.mlr.press/v318/) — **39th Canadian Conference on Artificial Intelligence (Canadian AI 2026)**, Vancouver, BC, May 25–29, 2026.
+*Ethan Heavey & Paul Cook (University of New Brunswick)* **39th Canadian Conference on Artificial Intelligence (Canadian AI 2026)**, Vancouver, BC, May 25–29, 2026.
 
 ## TL;DR
 
