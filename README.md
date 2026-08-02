@@ -157,20 +157,20 @@ Several directions worth pursuing:
 ## Citation
 
 ```bibtex
-@InProceedings{pmlr-v318-heavey26a,
-  title = 	 {Smaller, Smarter, Greener: Reducing LLM Inference Emissions with RAG},
-  author =       {Heavey, Ethan and Cook, Paul},
-  booktitle = 	 {Proceedings of the The 39th Canadian Conference on Artificial Intelligence},
-  pages = 	 {450--463},
-  year = 	 {2026},
-  editor = 	 {Bouzar-Benlabiod, Lydia and Leung, Carson},
-  volume = 	 {318},
-  series = 	 {Proceedings of Machine Learning Research},
-  month = 	 {25--29 May},
-  publisher =    {PMLR},
-  pdf = 	 {https://raw.githubusercontent.com/mlresearch/v318/main/assets/heavey26a/heavey26a.pdf},
-  url = 	 {https://proceedings.mlr.press/v318/heavey26a.html},
-  abstract = 	 {The escalating computational demands of Large Language Models (LLMs) raise significant concerns regarding their environmental sustainability. While prior work has quantified training emissions, inference - which dominates a model’s lifecycle carbon footprint - remains underexplored in holistic evaluations that jointly consider efficiency and effectiveness. This study investigates whether smaller models augmented with Retrieval-Augmented Generation (RAG) can achieve Pareto-optimal configurations that balance accuracy and carbon emissions better than larger, non-RAG models. We conduct experiments across three model families (DeepSeek-r1, Qwen3, Gemma 3) on two question answering datasets (HotpotQA, Natural Questions), measuring end-to-end emissions using CodeCarbon. Our results show that on Natural Questions, RAG enables models as small as 0.6B parameters to outperform 12B-32B models in terms of F1 score with lower carbon emissions, in some cases achieving up to 90% emission reductions. However, on HotpotQA, the efficiency benefits are more nuanced, with RAG consistently improving F1, but not always reducing emissions. Our work provides a systematic analysis of the efficiency-effectiveness trade-off of incorporating RAG, offering practical guidance for environmentally sustainable AI.}
+@InProceedings{heavey2026ssg,
+  title     = {Smaller, Smarter, Greener: Reducing LLM Inference Emissions with RAG},
+  author    = {Heavey, Ethan and Cook, Paul},
+  booktitle = {Proceedings of the The 39th Canadian Conference on Artificial Intelligence},
+  pages     = {450--463},
+  year      = {2026},
+  editor    = {Bouzar-Benlabiod, Lydia and Leung, Carson},
+  volume    = {318},
+  series    = {Proceedings of Machine Learning Research},
+  month     = {25--29 May},
+  publisher = {PMLR},
+  pdf       = {https://raw.githubusercontent.com/mlresearch/v318/main/assets/heavey26a/heavey26a.pdf},
+  url       = {https://proceedings.mlr.press/v318/heavey26a.html},
+  abstract  = {The escalating computational demands of Large Language Models (LLMs) raise significant concerns regarding their environmental sustainability. While prior work has quantified training emissions, inference - which dominates a model’s lifecycle carbon footprint - remains underexplored in holistic evaluations that jointly consider efficiency and effectiveness. This study investigates whether smaller models augmented with Retrieval-Augmented Generation (RAG) can achieve Pareto-optimal configurations that balance accuracy and carbon emissions better than larger, non-RAG models. We conduct experiments across three model families (DeepSeek-r1, Qwen3, Gemma 3) on two question answering datasets (HotpotQA, Natural Questions), measuring end-to-end emissions using CodeCarbon. Our results show that on Natural Questions, RAG enables models as small as 0.6B parameters to outperform 12B-32B models in terms of F1 score with lower carbon emissions, in some cases achieving up to 90% emission reductions. However, on HotpotQA, the efficiency benefits are more nuanced, with RAG consistently improving F1, but not always reducing emissions. Our work provides a systematic analysis of the efficiency-effectiveness trade-off of incorporating RAG, offering practical guidance for environmentally sustainable AI.}
 }
 ```
 
